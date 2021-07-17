@@ -1,6 +1,8 @@
 # Analyzing Media Bias using Deep Learning
 The purpose of this project was to use deep learning to implement a text classifier that classifies liberal and conservative biases in news article headings. An LSTM (Long Short Term Memory) neural network was implemented to capture the biases. The [All The News dataset](https://www.kaggle.com/snapcrack/all-the-news), consisting of 143,000 articles was used to train and test the deep learning model. The model was run on another held out dataset containing manually downloaded article headings and the results were visualized for analysis using Tableau. This repository also includes a  presentation of the project as well as a paper.
 
+Since the dataset is huge with over 140,000 rows, it could not be coded locally. Pycharm was used to connect remotely with a Google Cloud Platform virtual machine and the data was accessed and modeled over the cloud.
+
 ## Files Included:
 
 | File    | Description    | 
